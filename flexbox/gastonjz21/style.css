@@ -1,0 +1,13 @@
+#container {
+    background-color: blanchedalmond;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu {
+    display: flex;
+}
+
