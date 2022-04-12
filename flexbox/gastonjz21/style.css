@@ -1,0 +1,14 @@
+#container {
+    background-color: blanchedalmond;
+}
+
+#header {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul li {
+    display: inline-flex;
+    margin: 0 1.3rem;
+}
+
