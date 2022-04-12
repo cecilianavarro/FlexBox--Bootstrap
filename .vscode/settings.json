@@ -1,0 +1,9 @@
+{
+    "cSpell.enableFiletypes": [
+        "!html"
+    ],
+    "cSpell.words": [
+        "caja"
+    ],
+    "html-css-class-completion.enableEmmetSupport": true
+}
