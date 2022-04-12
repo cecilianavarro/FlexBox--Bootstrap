@@ -37,7 +37,7 @@
 }
 #menu > ul{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-items: center;
     justify-content: space-between;
     height: 100%;
@@ -46,9 +46,31 @@
 #menu a{
     text-transform: uppercase;
     color: #444;
-    padding: .975rem;
+    padding: .9375rem;
     transition: all 300ms;
 }
 #menu a:hover{
-    
+    background-color: #ccc;
+    color: white;
+}
+/* A partir de aca comenzamos a armar la parte central de nuestro HTML */
+#content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+#projects{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+    margin-right: 1.5625rem;
+}
+.projects{
+    flex-grow: 1;
+    flex-basis: 15.625rem;
+    margin-bottom: 1.5625rem;
+    margin-right: 1.25rem;
+    border: .0625rem solid #ccc;
 }
