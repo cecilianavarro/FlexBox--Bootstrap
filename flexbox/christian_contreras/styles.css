@@ -81,6 +81,37 @@
 .project-info a:hover{color: green;}
 .project-info p{font-size: 1rem;color: gray;}
 
+#aside{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 15%;
+    margin-right: 1.9375rem;
+    padding: 0.9375rem;
+}
+aside h2{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 100;
+    color: #444;
+    padding-bottom: 0.625rem;
+    margin-bottom: 1.25rem;
+    border-bottom: 0.625rem solid rgba(225,225,226,0.8);
+}
+#aside ul{list-style: none;}
+#aside ul li{padding-bottom: 1.25rem;}
+#aside a{
+    display: block;
+    padding: 1.25rem;
+    background: #ccc;
+    color: #444;
+    text-align: center;
+    text-transform: uppercase;
+    transition: all 380ms;
+}
+#aside a:hover{background: #444;color: #ccc;}
+
 
 
 
