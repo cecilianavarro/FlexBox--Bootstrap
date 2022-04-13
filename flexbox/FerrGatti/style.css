@@ -15,6 +15,7 @@
     min-height: 43.75rem;
 }
 .logo{
+    display: flex;
     flex-grow: 1;
     flex-basis: 65%;
     padding: .625rem;
@@ -39,7 +40,7 @@
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     height: 100%;
     list-style-type: none;
 }
@@ -131,4 +132,23 @@
 #aside a:hover{
     background: #444;
     color: #eee;
+}
+/* Pie de pagina */
+#footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    height: 7.5rem;
+    align-items: center;
+    border-top: 1px solid rgba(225, 225, 226, 0.8);
+}
+#footer .logo{
+    opacity: 0.5;
+    flex-basis: auto;
+    flex-grow: 1;
+}
+#footer .info{
+    flex-grow: 1;
+    text-align: right;
+    margin-right: 1.25rem;
 }
